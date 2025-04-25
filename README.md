@@ -16,11 +16,6 @@ A simple memory allocator implemented in C++ with a Command-Line Interface (CLI)
 ## Demo Scenario
 1. Add processes A (200), B (300), and C (100).
 2. Remove process B.
-3. Attempt to add process D (350) — should fail due to external fragmentation.
+3. Attempt to add process D (450) — should fail due to external fragmentation.
 4. Compact memory.
 5. Add process D again — should succeed.
-
-## How to Run
-```bash
-g++ -o memory_allocator main.cpp
-./memory_allocator
